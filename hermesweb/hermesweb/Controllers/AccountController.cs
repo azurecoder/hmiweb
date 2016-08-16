@@ -26,6 +26,7 @@ namespace hermesweb.Controllers
         {
             UserManager = userManager;
             SignInManager = signInManager;
+            Console.WriteLine("This is a test");
         }
 
         public ApplicationSignInManager SignInManager
